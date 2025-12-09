@@ -1,4 +1,4 @@
-# 💼 DevStudio – Sistema de Agendamento de Serviços
+# 💼 KcodeNav – Sistema de Agendamento de Serviços
 
 Sistema moderno e responsivo para agendamento de serviços digitais, desenvolvido para facilitar o contato entre clientes e prestadores.  
 A aplicação permite selecionar um tipo de serviço, enviar uma mensagem personalizada e receber os dados diretamente por e-mail via EmailJS.
