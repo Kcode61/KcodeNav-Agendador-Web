@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevStudio | Agendamento</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="../../src/app.js"></script>
+  </head>
+  <body class="min-h-screen font-[inter]">
+    <section class="py-16 bg-[#111526]">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-2xl text-center mx-auto">
+          <div
+            class="inline-block bg-purple-500/10 border border-purple-500/30 rounded-full px-6 py-2 mb-6"
+          >
+            <span class="text-purple-400"
+              >✨ Desenvolvimento Web Profissional</span
+            >
+          </div>
+          <div class="text-center max-w-xl mx-auto">
+            <h1
+              class="text-4xl md:text-5xl text-white font-[Poppins] font-bold tracking-tight"
+            >
+              Transforme suas Ideias
+              <br />
+              <span
+                class="text-5xl font-[Poppins] font-bold tracking-tight bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent"
+              >
+                em Código
+              </span>
+            </h1>
+            <p class="mb-4 mt-3 text-zinc-400 text-sm max-w-lg mx-auto">
+              Desenvolvimento de sites e sistemas personalizados com as melhores
+              tecnologias do mercado. Agende uma consultoria gratuita!
+            </p>
+
+            <button
+              onclick="loadPage('contato')"
+              class="px-6 py-3 rounded-lg font-[Poppins] font-semibold tracking-tight text-white bg-gradient-to-r from-purple-500 to-blue-500 hover:scale-110 ease duration-200 cursor-pointer transition"
+            >
+              Solicitar Orçamento
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-slate-900">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-4xl mx-auto justify-center grid md:grid-cols-3 gap-4">
+          <div
+            class="rounded-xl bg-slate-800 border border-slate-700 hover:border-purple-400 p-6 group"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-award-icon lucide-award text-purple-400 group-hover:scale-110 transition ease duration-200"
+            >
+              <path
+                d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+              />
+              <circle cx="12" cy="8" r="6" />
+            </svg>
+            <p class="text-white font-semibold mt-3 mb-1">Codigo limpo</p>
+            <p class="text-zinc-400 text-sm">Código organizado e documentado</p>
+          </div>
+          <div
+            class="rounded-xl bg-slate-800 border border-slate-700 hover:border-purple-400 p-6 group"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-star-icon lucide-star text-purple-400 group-hover:scale-110 transition ease duration-200"
+            >
+              <path
+                d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+              />
+            </svg>
+
+            <p class="text-white font-semibold mt-3 mb-1">Design Moderno</p>
+            <p class="text-zinc-400 text-sm">
+              Interfaces elegantes e responsivas
+            </p>
+          </div>
+          <div
+            class="rounded-xl bg-slate-800 border border-slate-700 hover:border-purple-400 p-6 group"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-clock-icon lucide-clock text-purple-400 group-hover:scale-110 transition ease duration-200"
+            >
+              <path d="M12 6v6l4 2" />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+
+            <p class="text-white font-semibold mt-3 mb-1">Entrega Rápida</p>
+            <p class="text-zinc-400 text-sm">Prazos cumpridos com qualidade</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-[#020618]" id="serviços">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl text-white font-[Poppins] font-semibold tracking-tight mb-2"
+          >
+            Nossos <span class="text-purple-400">Serviços</span>
+          </h2>
+          <p class="text-sm text-zinc-400">
+            Escolha o projeto ideal para sua necessidade
+          </p>
+        </div>
+        <div
+          class="grid justify-center gap-4 md:grid-cols-3 max-w-4xl mx-auto py-10"
+        >
+          <div
+            class="rounded-xl border-slate-700 hover:border-purple-400 border flex flex-col group"
+          >
+            <div
+              class="relative h-48 overflow-hidden bg-slate-800 flex items-center justify-center rounded-t-xl"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBjb2RpbmclMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzY1MTE1MDg2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+                alt="Landing Page"
+                class="w-full h-full object-cover opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500"
+              />
+
+              <div
+                class="absolute top-4 right-4 bg-purple-500 text-white px-4 py-2 rounded-full"
+              >
+                A partir de R$ 800
+              </div>
+            </div>
+            <div class="p-6 bg-[#0F172B] rounded-b-xl">
+              <h3 class="text-white mb-2">Landing Page</h3>
+              <p class="text-slate-400 mb-4">
+                Página de conversão responsiva e otimizada
+              </p>
+              <div class="flex items-center justify-between text-slate-400">
+                <div class="flex items-center space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-clock w-4 h-4 text-purple-400"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 6v6l4 2"></path>
+                    <circle cx="12" cy="12" r="10"></circle>
+                  </svg>
+                  <span>7-10 dias</span>
+                </div>
+                <button
+                  class="text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center space-x-1 group/btn"
+                >
+                  <span onclick="loadPage('contato')">Solicitar</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-chevron-right w-4 h-4 group-hover/btn:translate-x-1 transition-transform"
+                    aria-hidden="true"
+                  >
+                    <path d="m9 18 6-6-6-6"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-xl border-slate-700 hover:border-purple-400 border flex flex-col group"
+          >
+            <div
+              class="relative h-48 overflow-hidden bg-slate-800 flex items-center justify-center rounded-t-xl"
+            >
+              <img
+                src="https://images.pexels.com/photos/4383298/pexels-photo-4383298.jpeg"
+                alt="Landing Page"
+                class="w-full h-full object-cover opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500"
+              />
+
+              <div
+                class="absolute top-4 right-4 bg-purple-500 text-white px-4 py-2 rounded-full"
+              >
+                A partir de R$ 1.500
+              </div>
+            </div>
+            <div class="p-6 bg-[#0F172B] rounded-b-xl">
+              <h3 class="text-white mb-2">Site Completo</h3>
+              <p class="text-slate-400 mb-4">
+                Site institucional com múltiplas páginas
+              </p>
+              <div class="flex items-center justify-between text-slate-400">
+                <div class="flex items-center space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-clock w-4 h-4 text-purple-400"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 6v6l4 2"></path>
+                    <circle cx="12" cy="12" r="10"></circle>
+                  </svg>
+                  <span>15-20 dias</span>
+                </div>
+                <button
+                  class="text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center space-x-1 group/btn"
+                >
+                  <span onclick="loadPage('contato')">Solicitar</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-chevron-right w-4 h-4 group-hover/btn:translate-x-1 transition-transform"
+                    aria-hidden="true"
+                  >
+                    <path d="m9 18 6-6-6-6"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="rounded-xl border-slate-700 hover:border-purple-400 border flex flex-col group"
+          >
+            <div
+              class="relative h-48 overflow-hidden bg-slate-800 flex items-center justify-center rounded-t-xl"
+            >
+              <img
+                src="https://images.pexels.com/photos/374560/pexels-photo-374560.jpeg"
+                alt="Landing Page"
+                class="w-full h-full object-cover opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500"
+              />
+
+              <div
+                class="absolute top-4 right-4 bg-purple-500 text-white px-4 py-2 rounded-full"
+              >
+                A partir de R$ 3.000
+              </div>
+            </div>
+            <div class="p-6 bg-[#0F172B] rounded-b-xl">
+              <h3 class="text-white mb-2">Sistema Web</h3>
+              <p class="text-slate-400 mb-4">
+                Aplicação completa com banco de dados
+              </p>
+              <div class="flex items-center justify-between text-slate-400">
+                <div class="flex items-center space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-clock w-4 h-4 text-purple-400"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 6v6l4 2"></path>
+                    <circle cx="12" cy="12" r="10"></circle>
+                  </svg>
+                  <span>30-45 dias </span>
+                </div>
+                <button
+                  class="text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center space-x-1 group/btn"
+                >
+                  <span onclick="loadPage('contato')">Solicitar</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-chevron-right w-4 h-4 group-hover/btn:translate-x-1 transition-transform"
+                    aria-hidden="true"
+                  >
+                    <path d="m9 18 6-6-6-6"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-[#0F172B]">
+      <div class="mx-auto max-w-7xl">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl text-purple-400 font-[Poppins] font-semibold tracking-tight mb-2"
+          >
+            Tecnologias <span class="text-white">que utilizamos</span>
+          </h2>
+          <p class="text-sm text-zinc-400">
+            As melhores ferramentas do mercado
+          </p>
+        </div>
+
+        <div
+          class="grid md:grid-cols-4 justify-center max-w-2xl gap-4 mx-auto py-10"
+        >
+          <div
+            class="p-3 rounded-lg text-center bg-slate-800 border group w-full border-slate-700 hover:scale-105 transition ease duration-200 hover:border-purple-400"
+          >
+            <p class="text-zinc-400 group-hover:text-purple-400">Tailwind</p>
+          </div>
+
+          <div
+            class="p-3 rounded-lg w-full text-center bg-slate-800 border group border-slate-700 hover:scale-105 transition ease duration-200 hover:border-purple-400"
+          >
+            <p class="text-zinc-400 group-hover:text-purple-400 w-full">
+              ReactDom
+            </p>
+          </div>
+
+          <div
+            class="p-3 rounded-lg w-full text-center group bg-slate-800 border border-slate-700 hover:scale-105 transition ease duration-200 hover:border-purple-400"
+          >
+            <p class="text-zinc-400 group-hover:text-purple-400">Node.js</p>
+          </div>
+          <div
+            class="p-3 rounded-lg w-full text-center group bg-slate-800 border border-slate-700 hover:scale-105 transition ease duration-200 hover:border-purple-400"
+          >
+            <p class="text-zinc-400 group-hover:text-purple-400">Html</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gradient-to-r from-purple-600 to-blue-500 py-16">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-white font-[Poppins] font-semibold tracking-tight text-3xl mb-2"
+          >
+            Pronto para Dar Vida ao Seu Projeto?
+          </h2>
+          <p class="text-white text-sm mb-6">
+            Agende uma reunião gratuita e receba um orçamento personalizado!
+          </p>
+
+          <button
+            onclick="loadPage('contato')"
+            class="px-6 py-3 rounded-lg font-medium text-purple-400 bg-[#0F172B] shadow-lg ease cursor-pointer hover:scale-105 transition-all duration-300"
+          >
+            Agendar Consultoria
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
