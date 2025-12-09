@@ -1,2 +1,52 @@
-# KcodeNav-Agendamento-de-Servi-os-Digitais
-Sistema de agendamento e contato para contratação de serviços digitais, feito com HTML, TailwindCSS e JavaScript. Suporte a envio de mensagens via EmailJS, seleção de serviços e páginas carregadas dinamicamente.
+# 💼 DevStudio – Sistema de Agendamento de Serviços
+
+Sistema moderno e responsivo para agendamento de serviços digitais, desenvolvido para facilitar o contato entre clientes e prestadores.  
+A aplicação permite selecionar um tipo de serviço, enviar uma mensagem personalizada e receber os dados diretamente por e-mail via EmailJS.
+
+<br>
+
+## 🚀 Funcionalidades
+
+- 📄 **Carregamento dinâmico de páginas** (SPA simples com JavaScript)
+- ✉️ **Envio de mensagens via EmailJS**
+- 🧩 **Seleção interativa de serviços**
+- 🔥 **Interface moderna feita com TailwindCSS**
+- 📱 **Totalmente responsivo**
+- ⚡ Sem backend — tudo funciona direto no front-end
+
+<br>
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+- **TailwindCSS**
+- **JavaScript**
+- **EmailJS**
+- **Vite / Live Server / ou ambiente estático**
+
+<br>
+
+## 📬 Como funciona o envio de mensagens
+
+O formulário coleta:
+- Nome
+- E-mail
+- Mensagem
+- Serviço escolhido
+
+E envia diretamente para o seu e-mail usando **EmailJS**.
+
+<br>
+
+## 🖼️ Demonstração
+
+> *(Adicione prints da interface aqui se quiser)*
+
+<br>
+
+## 🧪 Como rodar o projeto
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
