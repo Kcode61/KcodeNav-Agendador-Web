@@ -38,15 +38,5 @@ E envia diretamente para o seu e-mail usando **EmailJS**.
 
 <br>
 
-## 🖼️ Demonstração
-
-> *(Adicione prints da interface aqui se quiser)*
-
-<br>
-
 ## 🧪 Como rodar o projeto
-
-1. Clone este repositório:
-
-```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+Acesse o projeto online em: 
