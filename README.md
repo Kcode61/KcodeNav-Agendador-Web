@@ -39,4 +39,4 @@ E envia diretamente para o seu e-mail usando **EmailJS**.
 <br>
 
 ## 🧪 Como rodar o projeto
-Acesse o projeto online em: 
+Acesse o projeto online em: https://kcodenav-agendador-web.pages.dev/
