@@ -1,11 +1,9 @@
-// src/app.js
 async function loadPage(page, hash = null) {
   const response = await fetch(`src/pages/${page}.html`);
   const content = await response.text();
 
   document.getElementById("app").innerHTML = content;
 
-  // inicializa scripts específicos da página depois do innerHTML
   if (page === "contato") {
     initContatoPage();
   }
@@ -81,7 +79,6 @@ function initContatoPage() {
     }
 
     try {
-      // Troque pelos seus IDs do EmailJS
       await emailjs.send("service_ctupi2l", "template_fwjutrx", {
         from_name: name,
         from_email: email,
@@ -106,3 +103,4 @@ function initContatoPage() {
     }
   });
 }
+
